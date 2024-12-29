@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
     <title>Todo List App</title>
 </head>
 
@@ -17,12 +18,12 @@
         </div>
 
         <ul class="scroll">
-            <li id="todolist"></li>
+            <li id="todoList"></li>
         </ul>
         <div>
             <hr class="counter" />
             <div class="counter-container">
-                <p><span>0</span> items total</p>
+                <p><span id="todoCount">0</span> items total</p>
                 <button id="deleteButton">Delete All</button>
             </div>
         </div>
