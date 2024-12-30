@@ -79,6 +79,7 @@ function editTask(index) {
     inputElement.addEventListener("blur", updateTask);
     inputElement.addEventListener("keydown", function(event) {
         if(event.key === "Enter") {
+            event.preventDefault();
             updateTask();
         }
     });
