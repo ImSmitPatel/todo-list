@@ -86,6 +86,8 @@ The JavaScript file powers the application with:
 2. Open the `index.html` file in a web browser.
 3. Start adding, editing, and managing your tasks!
 
+**You can also go to *https://imsmitpatel.github.io/todo-list/***
+
 ---
 
 ## Future Enhancements
